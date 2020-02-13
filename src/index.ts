@@ -11,8 +11,4 @@ app.listen(config.port, () =>
   logger.info(`server started on port ${config.port} (${config.env})`)
 );
 
-/**
- * Exports express
- * @public
- */
 module.exports = app;
